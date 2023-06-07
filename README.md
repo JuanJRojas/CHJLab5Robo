@@ -40,6 +40,23 @@ end
 
 ## Aplicación de escritura 
 
+A continuación se muestran imagenes de la aplicación de escritura, en la que se puede observar el robot escribiendo:
+
+<!-- ![Img1](Images/Img1.jpg) -->
+![Img5](Images/Img5.jpg)
+![Img4](Images/Img4.jpg)
+![Img3](Images/Img3.jpg)
+![Img6](Images/Img6.jpg)
+![Img2](Images/Img2.jpg)
+<!-- ![Img7](Images/Img7.jpg) -->
+<!-- ![Img8](Images/Img8.jpg) -->
+<!-- ![Img9](Images/Img9.jpg) -->
+<!-- ![Img10](Images/Img10.jpg) -->
+
+Link del video: 
+
+[Video](https://youtu.be/0Q4QX6Z3Zqo)
+
 ## Rutinas de escritura
 
 Teniendo esta función, la cual nos devuelve los parámetros de las articulaciones habiendo definido un punto (x,y,z), planteamos el dibujo de varias figuras mediante el uso de múltiples puntos para que el robot de vaya a la posición punto por punto. 
