@@ -8,6 +8,8 @@
 
 ## Análisis de cinemática inversa
 
+![Img3](Images/Img3.jpg)
+
 ### Modelo de cinemática inversa
 
 Mediante la implementación de la cinemática inversa del PhantomX, como se muestra en el siguiente código, en el que se encuentran la función 'iKine', con la que se obtuvieron las entradas para el robot para cualquier punto de su zona alcanzable.
@@ -36,31 +38,23 @@ function q = iKine(P,L,Holding)
 end
 ```
 
-### Espacio de trabajo del robot
+### Espacio de trabajo del robot:
+
+![Img5](Images/Img5.jpg)
 
 ## Aplicación de escritura 
 
-A continuación se muestran imagenes de la aplicación de escritura, en la que se puede observar el robot escribiendo:
+Teniendo esta función, la cual nos devuelve los parámetros de las articulaciones habiendo definido un punto (x,y,z), planteamos el dibujo de varias figuras mediante el uso de múltiples puntos para que el robot de vaya a la posición punto por punto.
 
-<!-- ![Img1](Images/Img1.jpg) -->
-![Img5](Images/Img5.jpg)
-![Img4](Images/Img4.jpg)
-![Img3](Images/Img3.jpg)
-![Img6](Images/Img6.jpg)
-![Img2](Images/Img2.jpg)
-<!-- ![Img7](Images/Img7.jpg) -->
-<!-- ![Img8](Images/Img8.jpg) -->
-<!-- ![Img9](Images/Img9.jpg) -->
-<!-- ![Img10](Images/Img10.jpg) -->
+Para esto para cada figura se dibujó un Círculo, Cuadrado o Iniciales. Se creó un código que calcula N puntos para cada figura, definiendo parámetros como su centro y su diámetro y el largo de sus lados. 
 
-Link del video: 
+Lo anterior se puede encontrar en los códigos:
 
-[Video](https://youtu.be/0Q4QX6Z3Zqo)
+- Circulo.m
+- Cuadrado.m
+- Rectangulo.m 
 
-## Rutinas de escritura
-
-Teniendo esta función, la cual nos devuelve los parámetros de las articulaciones habiendo definido un punto (x,y,z), planteamos el dibujo de varias figuras mediante el uso de múltiples puntos para que el robot de vaya a la posición punto por punto. 
-Para esto para cada figura se Círculo Cuadrado o Iniciales, se crea un código que nos crea N puntos para cada figura definiendo parámetros como su centro y diámetro y el largo de sus lados. Esto lo podemos encontrar en los códigos Circulo.m Cuadrado.m Rectangulo.m  veremos el código de Rectangulo.m continuación.
+A continuación, el código de 'Rectangulo.m':
 
 ```matlab
 function Pos=Rectangulo(c,theta,r)
@@ -82,6 +76,43 @@ function Pos=Rectangulo(c,theta,r)
     end
 end
 ```
+
+### Resultados:
+
+- Circulo:
+![Img4](Images/Img4.jpg)
+
+- Iniciales:
+![Img2](Images/Img2.jpg)
+
+- Cuadrado
+![Img7](Images/Img7.jpg)
+
+- Resultados juntos:
+![Img1](Images/Img1.jpg)
+## Rutinas de escritura
+
+### Base de marcador
+
+![Img6](Images/Img6.jpg)
+
+Como se puede observar, la tapa del marcador es ubicada como base para que el robot tome y deje el marcador en la tapa.
+
+
+### HDMI
+
 Para la implementación del HDMI se usó  GUIDE de MATLAB en este se incluyeron diferentes botones. Esto lo podemos ver en la siguiente figura:
 
 ![GUI](Images/Img11.jpg)
+
+Otros ejemplos de interfaz de interacción con el robot:
+![Img8](Images/Img8.jpg)
+![Img9](Images/Img9.jpg)
+![Img10](Images/Img10.jpg)
+
+
+### Link del video:
+
+Este video muestra la ejecución de las rutinas.
+
+[Video](https://youtu.be/0Q4QX6Z3Zqo)
