@@ -99,9 +99,9 @@ end
 Como se puede observar, la tapa del marcador es ubicada como base para que el robot tome y deje el marcador en la tapa.
 
 
-### HDMI
+### HMI
 
-Para la implementación del HDMI se usó  GUIDE de MATLAB en este se incluyeron diferentes botones. Esto lo podemos ver en la siguiente figura:
+Para la implementación del HMI se usó  GUIDE de MATLAB en este se incluyeron diferentes botones. Esto lo podemos ver en la siguiente figura:
 
 ![GUI](Images/Img11.jpg)
 
