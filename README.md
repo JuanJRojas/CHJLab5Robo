@@ -8,7 +8,7 @@
 
 ## Análisis de cinemática inversa
 
-![Img3](Images/Img3.jpg){width="600"}
+![Img3](Images/Img3.jpg){width="600px"}
 
 ### Modelo de cinemática inversa
 
@@ -40,7 +40,7 @@ end
 
 ### Espacio de trabajo del robot:
 
-![Img5](Images/Img5.jpg){width="600"}
+![Img5](Images/Img5.jpg){width="600px"}
 
 ## Aplicación de escritura 
 
@@ -80,21 +80,21 @@ end
 ### Resultados:
 
 - Circulo:
-![Img4](Images/Img4.jpg){width="600"}
+![Img4](Images/Img4.jpg){width="600px"}
 
 - Iniciales:
-![Img2](Images/Img2.jpg){width="600"}
+![Img2](Images/Img2.jpg){width="600px"}
 
 - Cuadrado
-![Img7](Images/Img7.jpg){width="600"}
+![Img7](Images/Img7.jpg){width="600px"}
 
 - Resultados juntos:
-![Img1](Images/Img1.jpg){width="600"}
+![Img1](Images/Img1.jpg){width="600px"}
 ## Rutinas de escritura
 
 ### Base de marcador
 
-![Img6](Images/Img6.jpg){width="600"}
+![Img6](Images/Img6.jpg){width="600px"}
 
 Como se puede observar, la tapa del marcador es ubicada como base para que el robot tome y deje el marcador en la tapa.
 
@@ -103,12 +103,12 @@ Como se puede observar, la tapa del marcador es ubicada como base para que el ro
 
 Para la implementación del HMI se usó  GUIDE de MATLAB en este se incluyeron diferentes botones. Esto lo podemos ver en la siguiente figura:
 
-![GUI](Images/Img11.jpg){width="600"}
+![GUI](Images/Img11.jpg){width="600px"}
 
 Otros ejemplos de interfaz de interacción con el robot:
-![Img8](Images/Img8.jpg){width="600"}
-![Img9](Images/Img9.jpg){width="600"}
-![Img10](Images/Img10.jpg){width="600"}
+![Img8](Images/Img8.jpg){width="600px"}
+![Img9](Images/Img9.jpg){width="600px"}
+![Img10](Images/Img10.jpg){width="600px"}
 
 
 ### Link del video:
