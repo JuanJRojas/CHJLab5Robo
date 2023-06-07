@@ -7,10 +7,11 @@
 - Juan José Rojas Álvarez
 
 ## Análisis de cinemática inversa
-# CHJLab5Robo
 
+### Modelo de cinemática inversa
 
-En esta, mediante la implementación de la cinemática inversa del pincher como se muestra en el siguiente código que se encuentran en iKine se logró la obtención de las entradas q para el robot para cualquier punto de su zona alcanzable.
+Mediante la implementación de la cinemática inversa del PhantomX, como se muestra en el siguiente código, en el que se encuentran la función 'iKine', con la que se obtuvieron las entradas para el robot para cualquier punto de su zona alcanzable.
+
 ```matlab
 function q = iKine(P,L,Holding)
     q=zeros(1,5);
@@ -34,8 +35,16 @@ function q = iKine(P,L,Holding)
     end
 end
 ```
-Teniendo esta función que nos devuelve los parámetros de las articulaciones definiendo un punto xyz  planteamos el dibujo de varias figuras mediante el uso de múltiples puntos para que el robot de vaya a la posición punto por punto. 
+
+### Espacio de trabajo del robot
+
+## Aplicación de escritura 
+
+## Rutinas de escritura
+
+Teniendo esta función, la cual nos devuelve los parámetros de las articulaciones habiendo definido un punto (x,y,z), planteamos el dibujo de varias figuras mediante el uso de múltiples puntos para que el robot de vaya a la posición punto por punto. 
 Para esto para cada figura se Círculo Cuadrado o Iniciales, se crea un código que nos crea N puntos para cada figura definiendo parámetros como su centro y diámetro y el largo de sus lados. Esto lo podemos encontrar en los códigos Circulo.m Cuadrado.m Rectangulo.m  veremos el código de Rectangulo.m continuación.
+
 ```matlab
 function Pos=Rectangulo(c,theta,r)
     m=4*r/(2*pi);
@@ -56,13 +65,6 @@ function Pos=Rectangulo(c,theta,r)
     end
 end
 ```
-Para la implementación del HDMI se usó  GUIDE de MATLAB en este se incluyeron diferentes botones. Esto lo podemos ver en la siguiente figura
-### Modelo de cinemática inversa
+Para la implementación del HDMI se usó  GUIDE de MATLAB en este se incluyeron diferentes botones. Esto lo podemos ver en la siguiente figura:
 
-### Espacio de trabajo del robot
-
-### Métodos disponibles en el toolbox para la cinemática inversa
-
-## Aplicación de escritura 
-
-## Rutinas de escritura
+![GUI](Images/Img11.jpg)
