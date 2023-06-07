@@ -7,8 +7,13 @@
 - Juan José Rojas Álvarez
 
 ## Análisis de cinemática inversa
-
-![Img3](Images/Img3.jpg){width="600px"}
+<div>
+<p style = 'text-align:center;'>
+<iframe width="600" height = "420"
+src="Images/Img3.jpg">
+</iframe>
+</div>
+</p>
 
 ### Modelo de cinemática inversa
 
