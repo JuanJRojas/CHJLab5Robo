@@ -113,6 +113,4 @@ Otros ejemplos de interfaz de interacción con el robot:
 
 ### Link del video:
 
-Este video muestra la ejecución de las rutinas.
-
-[Video](https://youtu.be/0Q4QX6Z3Zqo)
+Este video muestra la ejecución de las rutinas: [Video](https://youtu.be/0Q4QX6Z3Zqo)
