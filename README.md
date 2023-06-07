@@ -1,5 +1,3 @@
-[comment]: <> (Escribe un README basado en el archivo Laboratorio5.pdf)
-
 # Laboratorio 5 - Cinemática inversa - Robot PhantomX - ROS
 
 ## Integrantes
